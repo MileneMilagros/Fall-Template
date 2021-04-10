@@ -47,10 +47,10 @@
 		 
 
 		<p class=" compartir m-0">Compartir</p>
-		<a class="enlaceIcono" href="#" target="_blank"><i class="fab fa-facebook-square icon"></i></a> 
-		<a class="enlaceIcono" href="#" target="_blank"><i class="fab fa-twitter icon"></i></a>
-		<a class="enlaceIcono" href="#" target="_blank"><i class="fab fa-linkedin icon"></i></a>
-		<a class="enlaceIcono" href="#" target="_blank"><i class="fab fa-whatsapp icon"></i></a>
+		<a class="enlaceIcono" href="http://www.facebook.com/sharer.php?u=<?php echo __PATH__?>/oferta/<?php echo $resp->data->oferta_id ?>" target="_blank"><i class="fab fa-facebook-square icon"></i></a> 
+		<a class="enlaceIcono" href="https://twitter.com/?status=<?php echo __PATH__?>/oferta/<?php echo $resp->data->oferta_id?>" target="_blank"><i class="fab fa-twitter icon"></i></a>
+		<a class="enlaceIcono" href="https://www.linkedin.com/shareArticle?url=<?php echo __PATH__?>/oferta/<?php echo $resp->data->oferta_id?>" target="_blank"><i class="fab fa-linkedin icon"></i></a>
+		<a class="enlaceIcono" href="https://api.whatsapp.com/send?text=<?php echo __PATH__?>/oferta/<?php echo $resp->data->oferta_id?>" target="_blank"><i class="fab fa-whatsapp icon"></i></a>
 
 
 		<a href="oferta/<?php echo $key->oferta_id ?>"><button class=" BotonPostular w-75">Postular <i class="fa fa-arrow-circle-right flecha"></i></button></a>
